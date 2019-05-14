@@ -1,6 +1,6 @@
 package com.kk.factory;
 
-public abstract  class AbstractCarFactory {
+public abstract  class CarFactoryMethod {
 
    public  abstract ICar create();
 

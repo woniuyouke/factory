@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.kk.factory.AbstractCarTest</OriginalElement>
+  <nodes>
+    <node x="0.0" y="81.0">com.kk.factory.Lamborghini</node>
+    <node x="266.40277777777777" y="162.0">com.kk.factory.RollsCarFactory</node>
+    <node x="54.07870370370367" y="162.0">com.kk.factory.LamCarFactory</node>
+    <node x="185.7037037037037" y="0.0">com.kk.factory.ICar</node>
+    <node x="319.0" y="81.0">com.kk.factory.Rolls</node>
+    <node x="166.96296296296296" y="243.0">com.kk.factory.AbstractCarTest</node>
+    <node x="142.0" y="81.0">com.kk.factory.CarFactoryMethod</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.kk.factory.RollsCarFactory" target="com.kk.factory.ICar">
+      <point x="46.0" y="-15.5" />
+      <point x="381.40277777777777" y="137.0" />
+      <point x="405.5" y="137.0" />
+      <point x="405.5" y="51.0" />
+      <point x="248.7037037037037" y="51.0" />
+      <point x="28.0" y="15.5" />
+    </edge>
+    <edge source="com.kk.factory.AbstractCarTest" target="com.kk.factory.LamCarFactory">
+      <point x="-17.625" y="-15.5" />
+      <point x="219.83796296296296" y="213.0" />
+      <point x="154.57870370370367" y="213.0" />
+      <point x="33.5" y="15.5" />
+    </edge>
+    <edge source="com.kk.factory.CarFactoryMethod" target="com.kk.factory.ICar">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.kk.factory.RollsCarFactory" target="com.kk.factory.Rolls">
+      <point x="0.0" y="-15.5" />
+      <point x="335.40277777777777" y="137.0" />
+      <point x="357.0" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.kk.factory.AbstractCarTest" target="com.kk.factory.RollsCarFactory">
+      <point x="52.875" y="-15.5" />
+      <point x="290.33796296296293" y="223.0" />
+      <point x="369.90277777777777" y="223.0" />
+      <point x="34.5" y="15.5" />
+    </edge>
+    <edge source="com.kk.factory.LamCarFactory" target="com.kk.factory.CarFactoryMethod">
+      <point x="44.666666666666686" y="-15.5" />
+      <point x="165.74537037037035" y="137.0" />
+      <point x="181.25" y="137.0" />
+      <point x="-39.25" y="15.5" />
+    </edge>
+    <edge source="com.kk.factory.RollsCarFactory" target="com.kk.factory.CarFactoryMethod">
+      <point x="-46.0" y="-15.5" />
+      <point x="289.40277777777777" y="137.0" />
+      <point x="259.75" y="137.0" />
+      <point x="39.25" y="15.5" />
+    </edge>
+    <edge source="com.kk.factory.Lamborghini" target="com.kk.factory.ICar">
+      <point x="0.0" y="-15.5" />
+      <point x="60.5" y="51.0" />
+      <point x="192.7037037037037" y="51.0" />
+      <point x="-28.0" y="15.5" />
+    </edge>
+    <edge source="com.kk.factory.LamCarFactory" target="com.kk.factory.ICar">
+      <point x="0.0" y="-15.5" />
+      <point x="121.07870370370367" y="137.0" />
+      <point x="131.5" y="137.0" />
+      <point x="131.5" y="61.0" />
+      <point x="206.7037037037037" y="61.0" />
+      <point x="-14.0" y="15.5" />
+    </edge>
+    <edge source="com.kk.factory.Rolls" target="com.kk.factory.ICar">
+      <point x="0.0" y="-15.5" />
+      <point x="357.0" y="61.0" />
+      <point x="234.7037037037037" y="61.0" />
+      <point x="14.0" y="15.5" />
+    </edge>
+    <edge source="com.kk.factory.LamCarFactory" target="com.kk.factory.Lamborghini">
+      <point x="-44.66666666666663" y="-15.5" />
+      <point x="76.41203703703704" y="137.0" />
+      <point x="60.5" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="146.0" y="172.5" />
+  <SelectedNodes>
+    <node>com.kk.factory.AbstractCarTest</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
